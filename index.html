@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilo.css" />
@@ -18,62 +21,86 @@
       </div>
     </header>
     <section class="descricao">
-<p> Eu sou a Keylla, tenho 16 anos e curso técnico em informática integrado ao ensino médio no Instituto Federal de Mato Grosso</p>
+      <p>
+        Eu sou a Keylla, tenho 16 anos e curso técnico em informática integrado
+        ao ensino médio no Instituto Federal de Mato Grosso
+      </p>
+      <button id="botao">Continue Aqui</button>
+   
     </section>
 
     <section class="conteudo">
-        <div class="bloco">
-            <h2> Experiencias Anteriores</h2>
-            <p> estudante</p>
-        </div>
+      <div class="bloco">
+        <h2>Experiencias Anteriores</h2>
+        <p>estudante</p>
+      </div>
 
-        <div class="bloco">
-            <h2> Formação academica</h2>
-            <p> ensino fundamental</p>
-        </div>
+      <div class="bloco">
+        <h2>Formação academica</h2>
+        <p>ensino fundamental</p>
+      </div>
 
-        <div class="bloco">
-            <h2> Participação de projetos e eventos </h2>
-            <p> palestras ricardo</p>
-        </div>
-
-       
+      <div class="bloco">
+        <h2>Participação de projetos e eventos</h2>
+        <p>palestras ricardo</p>
+      </div>
     </section>
 
     <section class="Falacmg">
-        <h2> Interessado no meu curriculo?</h2>
-        <form>
-            <label for= "e-mail">e-mail:  </label>
-            <input placeholder="exemplo@gmail.com" type="e-mail" id="e-mail" name="e-mail"
-            required> 
-            
-            <label for= "telefone">telefone:  </label>
-            <input placeholder="(00)12345-6789" id="telefone" name="telefone"
-            required> 
-            <button type="submit">Entrar em contato</button>
+      <h2>Interessado no meu curriculo?</h2>
+      <form  action="https://formspree.io/f/xzzrbdqa"
+      method="POST">
+        <label for="e-mail">e-mail: </label>
+        <input
+          placeholder="exemplo@gmail.com"
+          type="e-mail"
+          id="e-mail"
+          name="e-mail"
+          required
+        />
 
-
-        </form>
+        <label for="telefone">telefone: </label>
+        <input
+          placeholder="(00)12345-6789"
+          id="telefone"
+          name="telefone"
+          required
+        />
+        <button id="botao" type="submit"> Entrar em contato</button>
+      </form>
     </section>
 
     <section class="fim">
-        <div class="blocofim"> 
-            <h2> Sobre mim</h2>
-            <p> Nasci e cresi em campo verde. Gosto de assitir filmes e series e sair com meus amigos</p>
-        
+      <div class="blocofim">
+        <div id="card">
+        <h2>Sobre mim</h2>
+        <p>
+          Nasci e cresi em campo verde. Gosto de assitir filmes, falar ingles e
+          series e sair com meus amigos
+        </p>
+      </div>
+    </div>
+      <div class="blocofim">
+        <h2>Meu canal</h2>
+        <iframe
+          width="410"
+          height="205"
+          src="https://www.youtube.com/embed/3oKT5Oz1bTU?si=AacNBMjM__FXQ_rA"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
 
-        </div>
-         
-        <div class="blocofim"> 
-            <h2> Meu canal</h2>
-            <iframe width="410" height="205" src="https://www.youtube.com/embed/3oKT5Oz1bTU?si=AacNBMjM__FXQ_rA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-
-        <div class="blocofim"> 
-         <h2> Mensagem positiva</h2> 
-         <p> Seja feliz!</p>  
-        </div>
+      <div class="blocofim">
+        <h2>Mensagem positiva</h2>
+        <p>Seja feliz!</p>
+      </div>
+  
     </section>
-
+    <script src="index.js"> </script>
   </body>
+
 </html>
